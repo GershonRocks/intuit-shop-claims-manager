@@ -1,0 +1,9 @@
+com/intuit/intuitshopclaimsmanager/repository/ComplaintRepository.class
+com/intuit/intuitshopclaimsmanager/controller/ComplaintController.class
+com/intuit/intuitshopclaimsmanager/model/Purchase.class
+com/intuit/intuitshopclaimsmanager/IntuitShopClaimsManagerApplication.class
+com/intuit/intuitshopclaimsmanager/repository/PurchaseRepository.class
+com/intuit/intuitshopclaimsmanager/repository/UserRepository.class
+com/intuit/intuitshopclaimsmanager/model/User.class
+com/intuit/intuitshopclaimsmanager/model/Complaint.class
+com/intuit/intuitshopclaimsmanager/service/ComplaintService.class
