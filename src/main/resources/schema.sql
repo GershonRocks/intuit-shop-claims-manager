@@ -1,8 +1,8 @@
 CREATE TABLE users (
                        id UUID PRIMARY KEY,
-                       name VARCHAR(255),
-                       email VARCHAR(255),
-                       address VARCHAR(255)
+                       fullName VARCHAR(255),
+                       emailAddress VARCHAR(255),
+                       physicalAddress VARCHAR(255)
 );
 
 CREATE TABLE purchases (
@@ -10,7 +10,10 @@ CREATE TABLE purchases (
                            userId UUID,
                            productId UUID,
                            productName VARCHAR(255),
-                           price DECIMAL,
+                           pricePaidAmount DECIMAL,
+                           priceCurrency VARCHAR(255),
+                           discount_percent FLOAT,
+                           merchantId UUID,
                            purchaseDate TIMESTAMP,
                            FOREIGN KEY (userId) REFERENCES users(id)
 );

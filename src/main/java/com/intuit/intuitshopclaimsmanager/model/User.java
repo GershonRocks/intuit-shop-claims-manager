@@ -15,7 +15,7 @@ import java.util.UUID;
 public class User {
     @Id
     private UUID id;
-    private String name;
-    private String email;
-    private String address;
+    private String fullName;
+    private String emailAddress;
+    private String physicalAddress;
 }
